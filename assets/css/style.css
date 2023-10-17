@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.page-title {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.search-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.search-container h5 {
+  margin-bottom: 10px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+#enter-city {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.click-search {
+  margin-left: 10px;
+}
+
+.day-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.one-day {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body {
+  margin: 0;
+}
+
+.forecast-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.day-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+#today-weather {
+  margin-bottom: 20px;
+}
+
+#current-pic {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+/* Add more specific styles or media queries as needed */
